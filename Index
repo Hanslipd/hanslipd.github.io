@@ -6,9 +6,8 @@
   <title>True Bearings</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f0f4f8;
       color: #333;
     }
@@ -22,12 +21,14 @@
       background-color: #1c5db5; /* Accent blue */
       display: flex;
       justify-content: center;
-      padding: 10px 0;
+      gap: 30px;
+      padding: 15px 0;
     }
     nav a {
       color: white;
       text-decoration: none;
-     -weight: bold;
+      bold;
+      font-size: 1.1em;
     }
     nav a:hover {
       text-decoration: underline;
@@ -36,9 +37,8 @@
       padding: 40px 20px;
       text-align: center;
     }
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
+    h2 {
+      color: #0b3d91;
     }
     p {
       font-size: 1.2em;
@@ -49,19 +49,19 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to True Bearings</h1>
-    <p>Thank you for visiting! This is a space where I share my journey, values, and experiences.</p>
+    <h1>True Bearings</h1>
+    <p>Welcome to my personal website. Thank you for coming!</p>
   </header>
 
   <nav>
-    index.htmlHome</a>
     about.htmlAbout Me</a>
-    contact.htmlContact</a>
     blog.htmlBlog</a>
+    contact.htmlContact</a>
   </nav>
 
   <main>
-    <p>Feel free to explore the site and engage in respectful discussion. Whether you're here to learn more about my work, connect, or read my latest thoughts — you're welcome here.</p>
+    <h2>Explore & Engage</h2>
+    <p>This space is dedicated to sharing my journey, values, and experiences. Feel free to look around and engage in discussion — I welcome respectful and thoughtful conversations.</p>
   </main>
 </body>
 </html>
