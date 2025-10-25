@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>True Bearings</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background-color: #0b3d91; /* Dark blue */
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #1c5db5; /* Accent blue */
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+     -weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 0 auto 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to True Bearings</h1>
+    <p>Thank you for visiting! This is a space where I share my journey, values, and experiences.</p>
+  </header>
+
+  <nav>
+    index.htmlHome</a>
+    about.htmlAbout Me</a>
+    contact.htmlContact</a>
+    blog.htmlBlog</a>
+  </nav>
+
+  <main>
+    <p>Feel free to explore the site and engage in respectful discussion. Whether you're here to learn more about my work, connect, or read my latest thoughts — you're welcome here.</p>
+  </main>
+</body>
+</html>
